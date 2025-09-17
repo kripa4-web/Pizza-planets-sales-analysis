@@ -1,13 +1,42 @@
-📊 SQL Queries & Analysis Performed
+# 🍕 Pizza Planet Sales Analysis (SQL Project)
 
--This project involved writing and executing 10+ SQL queries to analyze Pizza Planet’s sales data. Key query types include:
-  -Joins: Combined multiple tables (orders, order details, pizzas, categories) to create a unified dataset for analysis.
-  -Group By: Aggregated sales data by pizza type, category, size, and date to identify trends.
-  -Order By: Ranked pizzas and categories by revenue, order count, and popularity.
-  -Aggregate Functions: Used SUM(), COUNT(), AVG(), and MAX() to measure KPIs such as total revenue, average order value, and top-performing items.
+This project analyzes the **sales performance of Pizza Planet** using SQL.  
+The objective was to uncover key business insights related to revenue, customer behavior, and product performance.
 
-- Insights generated:
+---
+
+## 📊 SQL Queries & Analysis Performed
+- Wrote **10+ SQL queries** to explore and analyze sales data  
+- Used **JOINS** to merge multiple tables:
+  - Orders
+  - Order details
+  - Pizzas
+  - Pizza categories  
+- Applied **GROUP BY** to aggregate results by:
+  - Pizza type
+  - Category
+  - Size
+  - Date  
+- Used **ORDER BY** to rank pizzas and categories by revenue, sales count, and popularity  
+- Leveraged **aggregate functions**:
+  - `SUM()` – to calculate total revenue
+  - `COUNT()` – to count orders/items sold
+  - `AVG()` – to find average order values
+  - `MAX()` – to identify peak sales days  
+- Generated actionable insights:
   - Top 5 pizzas by revenue
-  - Daily sales trends
-  - Category-level performance
-  - Customer preferences
+  - Daily/weekly sales trends
+  - Category-level performance (Veg vs Non-Veg, size, crust type)
+  - Customer ordering patterns and preferences
+
+---
+
+## ⚡ SQL Concepts Used
+- **Joins** (`INNER JOIN`, `LEFT JOIN`)  
+- **Grouping & Aggregation** (`GROUP BY`, `SUM`, `COUNT`, `AVG`, `MAX`)  
+- **Sorting & Ranking** (`ORDER BY`)  
+- **Filtering** (`WHERE`, `HAVING`)  
+
+
+
+
