@@ -6,8 +6,8 @@
   -Order By: Ranked pizzas and categories by revenue, order count, and popularity.
   -Aggregate Functions: Used SUM(), COUNT(), AVG(), and MAX() to measure KPIs such as total revenue, average order value, and top-performing items.
 
-🔍 Example Insights
--Top 5 Pizzas by Revenue – Identified the best sellers driving profitability.
--Daily Sales Trends – Analyzed peak sales days and time periods.
--Category-Level Performance – Compared Veg vs Non-Veg, different sizes, and crust types.
--Customer Preferences – Derived insights on frequently ordered combinations.
+- Insights generated:
+  - Top 5 pizzas by revenue
+  - Daily sales trends
+  - Category-level performance
+  - Customer preferences
